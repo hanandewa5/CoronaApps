@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct TabbarView: View {
     var body: some View {
         TabView{
             HomeView()
@@ -28,10 +28,10 @@ struct ContentView: View {
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         Group {
-            ContentView()
+            TabbarView()
                 .environment(\.colorScheme, .light)
             
-            ContentView()
+            TabbarView()
                 .environment(\.colorScheme, .dark)
         }
     }

@@ -7,22 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7AE607752955D83800F6FF3C /* CovidAppsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE607742955D83800F6FF3C /* CovidAppsApp.swift */; };
-		7AE607772955D83800F6FF3C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE607762955D83800F6FF3C /* ContentView.swift */; };
+		7AE607752955D83800F6FF3C /* Main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE607742955D83800F6FF3C /* Main.swift */; };
+		7AE607772955D83800F6FF3C /* TabbarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE607762955D83800F6FF3C /* TabbarView.swift */; };
 		7AE607792955D83900F6FF3C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7AE607782955D83900F6FF3C /* Assets.xcassets */; };
 		7AE6077C2955D83900F6FF3C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7AE6077B2955D83900F6FF3C /* Preview Assets.xcassets */; };
 		7AE6078A295627C400F6FF3C /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE60789295627C400F6FF3C /* SearchView.swift */; };
 		7AE6078C295627D200F6FF3C /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE6078B295627D200F6FF3C /* HomeView.swift */; };
+		7AE607952956547F00F6FF3C /* CardModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE607942956547F00F6FF3C /* CardModifier.swift */; };
+		7AE60799295654E100F6FF3C /* BannerCardInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE60798295654E100F6FF3C /* BannerCardInfo.swift */; };
+		7AE6079B2956550300F6FF3C /* NewsCardInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE6079A2956550300F6FF3C /* NewsCardInfo.swift */; };
+		7AE6079F2956555300F6FF3C /* HospitalCardInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE6079E2956555300F6FF3C /* HospitalCardInfo.swift */; };
+		7AE607A12956557400F6FF3C /* HospitalCardTile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE607A02956557400F6FF3C /* HospitalCardTile.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		7AE607712955D83800F6FF3C /* CovidApps.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CovidApps.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		7AE607742955D83800F6FF3C /* CovidAppsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CovidAppsApp.swift; sourceTree = "<group>"; };
-		7AE607762955D83800F6FF3C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		7AE607742955D83800F6FF3C /* Main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Main.swift; sourceTree = "<group>"; };
+		7AE607762955D83800F6FF3C /* TabbarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabbarView.swift; sourceTree = "<group>"; };
 		7AE607782955D83900F6FF3C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7AE6077B2955D83900F6FF3C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		7AE60789295627C400F6FF3C /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
 		7AE6078B295627D200F6FF3C /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		7AE607942956547F00F6FF3C /* CardModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardModifier.swift; sourceTree = "<group>"; };
+		7AE60798295654E100F6FF3C /* BannerCardInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerCardInfo.swift; sourceTree = "<group>"; };
+		7AE6079A2956550300F6FF3C /* NewsCardInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsCardInfo.swift; sourceTree = "<group>"; };
+		7AE6079E2956555300F6FF3C /* HospitalCardInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HospitalCardInfo.swift; sourceTree = "<group>"; };
+		7AE607A02956557400F6FF3C /* HospitalCardTile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HospitalCardTile.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,9 +65,8 @@
 		7AE607732955D83800F6FF3C /* CovidApps */ = {
 			isa = PBXGroup;
 			children = (
-				7AE607822956266C00F6FF3C /* View */,
-				7AE607742955D83800F6FF3C /* CovidAppsApp.swift */,
-				7AE607762955D83800F6FF3C /* ContentView.swift */,
+				7AE607902956541800F6FF3C /* Persentation */,
+				7AE607742955D83800F6FF3C /* Main.swift */,
 				7AE607782955D83900F6FF3C /* Assets.xcassets */,
 				7AE6077A2955D83900F6FF3C /* Preview Content */,
 			);
@@ -75,10 +84,80 @@
 		7AE607822956266C00F6FF3C /* View */ = {
 			isa = PBXGroup;
 			children = (
-				7AE60789295627C400F6FF3C /* SearchView.swift */,
-				7AE6078B295627D200F6FF3C /* HomeView.swift */,
+				7AE6078F2956533700F6FF3C /* Home */,
+				7AE6078E2956531E00F6FF3C /* Search */,
+				7AE6078D2956526D00F6FF3C /* Tabbar */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		7AE6078D2956526D00F6FF3C /* Tabbar */ = {
+			isa = PBXGroup;
+			children = (
+				7AE607762955D83800F6FF3C /* TabbarView.swift */,
+			);
+			path = Tabbar;
+			sourceTree = "<group>";
+		};
+		7AE6078E2956531E00F6FF3C /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				7AE6079D2956554400F6FF3C /* Component */,
+				7AE60789295627C400F6FF3C /* SearchView.swift */,
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
+		7AE6078F2956533700F6FF3C /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				7AE60796295654C500F6FF3C /* Component */,
+				7AE6078B295627D200F6FF3C /* HomeView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		7AE607902956541800F6FF3C /* Persentation */ = {
+			isa = PBXGroup;
+			children = (
+				7AE607922956545300F6FF3C /* Component */,
+				7AE607822956266C00F6FF3C /* View */,
+			);
+			path = Persentation;
+			sourceTree = "<group>";
+		};
+		7AE607922956545300F6FF3C /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				7AE607932956546300F6FF3C /* Common */,
+			);
+			path = Component;
+			sourceTree = "<group>";
+		};
+		7AE607932956546300F6FF3C /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				7AE607942956547F00F6FF3C /* CardModifier.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		7AE60796295654C500F6FF3C /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				7AE60798295654E100F6FF3C /* BannerCardInfo.swift */,
+				7AE6079A2956550300F6FF3C /* NewsCardInfo.swift */,
+			);
+			path = Component;
+			sourceTree = "<group>";
+		};
+		7AE6079D2956554400F6FF3C /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				7AE6079E2956555300F6FF3C /* HospitalCardInfo.swift */,
+				7AE607A02956557400F6FF3C /* HospitalCardTile.swift */,
+			);
+			path = Component;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -152,9 +231,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				7AE6078A295627C400F6FF3C /* SearchView.swift in Sources */,
-				7AE607772955D83800F6FF3C /* ContentView.swift in Sources */,
+				7AE607952956547F00F6FF3C /* CardModifier.swift in Sources */,
+				7AE607772955D83800F6FF3C /* TabbarView.swift in Sources */,
+				7AE6079F2956555300F6FF3C /* HospitalCardInfo.swift in Sources */,
+				7AE607A12956557400F6FF3C /* HospitalCardTile.swift in Sources */,
+				7AE60799295654E100F6FF3C /* BannerCardInfo.swift in Sources */,
+				7AE6079B2956550300F6FF3C /* NewsCardInfo.swift in Sources */,
 				7AE6078C295627D200F6FF3C /* HomeView.swift in Sources */,
-				7AE607752955D83800F6FF3C /* CovidAppsApp.swift in Sources */,
+				7AE607752955D83800F6FF3C /* Main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
