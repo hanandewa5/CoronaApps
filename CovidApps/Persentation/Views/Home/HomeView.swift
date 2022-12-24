@@ -9,6 +9,8 @@ import Foundation
 import SwiftUI
 
 struct HomeView: View {
+    @ObservedObject private(set) var viewModel: ViewModel
+    
     @State private var index = 0
     var body: some View{
         ScrollView {

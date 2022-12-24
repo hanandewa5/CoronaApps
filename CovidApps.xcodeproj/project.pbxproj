@@ -18,6 +18,26 @@
 		7AE6079B2956550300F6FF3C /* NewsCardInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE6079A2956550300F6FF3C /* NewsCardInfo.swift */; };
 		7AE6079F2956555300F6FF3C /* HospitalCardInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE6079E2956555300F6FF3C /* HospitalCardInfo.swift */; };
 		7AE607A12956557400F6FF3C /* HospitalCardTile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE607A02956557400F6FF3C /* HospitalCardTile.swift */; };
+		7AE607A4295762C400F6FF3C /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE607A3295762C400F6FF3C /* HomeViewModel.swift */; };
+		7AE607A6295762D500F6FF3C /* SearchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE607A5295762D500F6FF3C /* SearchViewModel.swift */; };
+		7AE607A92957646B00F6FF3C /* Statistic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE607A82957646B00F6FF3C /* Statistic.swift */; };
+		7AE607AB2957648400F6FF3C /* News.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE607AA2957648400F6FF3C /* News.swift */; };
+		7AE607AD2957649300F6FF3C /* Hospital.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE607AC2957649300F6FF3C /* Hospital.swift */; };
+		7AE607BA29576C2800F6FF3C /* BaseApiClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE607B929576C2800F6FF3C /* BaseApiClient.swift */; };
+		7AE607BD295772B100F6FF3C /* RemoteDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE607BC295772B100F6FF3C /* RemoteDataSource.swift */; };
+		7AE607BF295772D500F6FF3C /* ApiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE607BE295772D500F6FF3C /* ApiService.swift */; };
+		7AE607C1295772E800F6FF3C /* ApiUrl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE607C0295772E800F6FF3C /* ApiUrl.swift */; };
+		7AE607C429577D0600F6FF3C /* ServiceContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE607C329577D0600F6FF3C /* ServiceContainer.swift */; };
+		7AE607C629577D9100F6FF3C /* HomeService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE607C529577D9100F6FF3C /* HomeService.swift */; };
+		7AE607C929577E6D00F6FF3C /* Loadable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE607C829577E6D00F6FF3C /* Loadable.swift */; };
+		7AE607CB29577EAE00F6FF3C /* CancelBag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE607CA29577EAE00F6FF3C /* CancelBag.swift */; };
+		7AE607CD29577EFB00F6FF3C /* LazyList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE607CC29577EFB00F6FF3C /* LazyList.swift */; };
+		7AE607CF29577FE800F6FF3C /* HomeWebRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE607CE29577FE800F6FF3C /* HomeWebRepository.swift */; };
+		7AE607D12957821900F6FF3C /* NewtworkingHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE607D02957821900F6FF3C /* NewtworkingHelper.swift */; };
+		7AE607D32957829100F6FF3C /* DepandancyInjector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE607D22957829100F6FF3C /* DepandancyInjector.swift */; };
+		7AE607D5295784A800F6FF3C /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE607D4295784A800F6FF3C /* Store.swift */; };
+		7AE607D72957851C00F6FF3C /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE607D62957851C00F6FF3C /* AppState.swift */; };
+		7AE607E529579FA200F6FF3C /* AppEnvironment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE607E429579FA200F6FF3C /* AppEnvironment.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +53,26 @@
 		7AE6079A2956550300F6FF3C /* NewsCardInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsCardInfo.swift; sourceTree = "<group>"; };
 		7AE6079E2956555300F6FF3C /* HospitalCardInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HospitalCardInfo.swift; sourceTree = "<group>"; };
 		7AE607A02956557400F6FF3C /* HospitalCardTile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HospitalCardTile.swift; sourceTree = "<group>"; };
+		7AE607A3295762C400F6FF3C /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		7AE607A5295762D500F6FF3C /* SearchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewModel.swift; sourceTree = "<group>"; };
+		7AE607A82957646B00F6FF3C /* Statistic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Statistic.swift; sourceTree = "<group>"; };
+		7AE607AA2957648400F6FF3C /* News.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = News.swift; sourceTree = "<group>"; };
+		7AE607AC2957649300F6FF3C /* Hospital.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hospital.swift; sourceTree = "<group>"; };
+		7AE607B929576C2800F6FF3C /* BaseApiClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseApiClient.swift; sourceTree = "<group>"; };
+		7AE607BC295772B100F6FF3C /* RemoteDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteDataSource.swift; sourceTree = "<group>"; };
+		7AE607BE295772D500F6FF3C /* ApiService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiService.swift; sourceTree = "<group>"; };
+		7AE607C0295772E800F6FF3C /* ApiUrl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiUrl.swift; sourceTree = "<group>"; };
+		7AE607C329577D0600F6FF3C /* ServiceContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceContainer.swift; sourceTree = "<group>"; };
+		7AE607C529577D9100F6FF3C /* HomeService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeService.swift; sourceTree = "<group>"; };
+		7AE607C829577E6D00F6FF3C /* Loadable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Loadable.swift; sourceTree = "<group>"; };
+		7AE607CA29577EAE00F6FF3C /* CancelBag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CancelBag.swift; sourceTree = "<group>"; };
+		7AE607CC29577EFB00F6FF3C /* LazyList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyList.swift; sourceTree = "<group>"; };
+		7AE607CE29577FE800F6FF3C /* HomeWebRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeWebRepository.swift; sourceTree = "<group>"; };
+		7AE607D02957821900F6FF3C /* NewtworkingHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewtworkingHelper.swift; sourceTree = "<group>"; };
+		7AE607D22957829100F6FF3C /* DepandancyInjector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DepandancyInjector.swift; sourceTree = "<group>"; };
+		7AE607D4295784A800F6FF3C /* Store.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Store.swift; sourceTree = "<group>"; };
+		7AE607D62957851C00F6FF3C /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
+		7AE607E429579FA200F6FF3C /* AppEnvironment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppEnvironment.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +105,9 @@
 		7AE607732955D83800F6FF3C /* CovidApps */ = {
 			isa = PBXGroup;
 			children = (
+				7AE607C229577CE600F6FF3C /* Injected */,
+				7AE607B729576BF000F6FF3C /* Core */,
+				7AE607AE2957665500F6FF3C /* Data */,
 				7AE607902956541800F6FF3C /* Persentation */,
 				7AE607742955D83800F6FF3C /* Main.swift */,
 				7AE607782955D83900F6FF3C /* Assets.xcassets */,
@@ -81,16 +124,6 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		7AE607822956266C00F6FF3C /* View */ = {
-			isa = PBXGroup;
-			children = (
-				7AE6078F2956533700F6FF3C /* Home */,
-				7AE6078E2956531E00F6FF3C /* Search */,
-				7AE6078D2956526D00F6FF3C /* Tabbar */,
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
 		7AE6078D2956526D00F6FF3C /* Tabbar */ = {
 			isa = PBXGroup;
 			children = (
@@ -104,6 +137,7 @@
 			children = (
 				7AE6079D2956554400F6FF3C /* Component */,
 				7AE60789295627C400F6FF3C /* SearchView.swift */,
+				7AE607A5295762D500F6FF3C /* SearchViewModel.swift */,
 			);
 			path = Search;
 			sourceTree = "<group>";
@@ -113,6 +147,7 @@
 			children = (
 				7AE60796295654C500F6FF3C /* Component */,
 				7AE6078B295627D200F6FF3C /* HomeView.swift */,
+				7AE607A3295762C400F6FF3C /* HomeViewModel.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -120,18 +155,10 @@
 		7AE607902956541800F6FF3C /* Persentation */ = {
 			isa = PBXGroup;
 			children = (
-				7AE607922956545300F6FF3C /* Component */,
-				7AE607822956266C00F6FF3C /* View */,
+				7AE607B32957675100F6FF3C /* Components */,
+				7AE607B22957673600F6FF3C /* Views */,
 			);
 			path = Persentation;
-			sourceTree = "<group>";
-		};
-		7AE607922956545300F6FF3C /* Component */ = {
-			isa = PBXGroup;
-			children = (
-				7AE607932956546300F6FF3C /* Common */,
-			);
-			path = Component;
 			sourceTree = "<group>";
 		};
 		7AE607932956546300F6FF3C /* Common */ = {
@@ -158,6 +185,119 @@
 				7AE607A02956557400F6FF3C /* HospitalCardTile.swift */,
 			);
 			path = Component;
+			sourceTree = "<group>";
+		};
+		7AE607AE2957665500F6FF3C /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				7AE607B02957670100F6FF3C /* Models */,
+				7AE607BB2957728000F6FF3C /* DataSources */,
+				7AE607AF2957666200F6FF3C /* Repositories */,
+				7AE607B4295767B200F6FF3C /* Services */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		7AE607AF2957666200F6FF3C /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+				7AE607CE29577FE800F6FF3C /* HomeWebRepository.swift */,
+			);
+			path = Repositories;
+			sourceTree = "<group>";
+		};
+		7AE607B02957670100F6FF3C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				7AE607A82957646B00F6FF3C /* Statistic.swift */,
+				7AE607AA2957648400F6FF3C /* News.swift */,
+				7AE607AC2957649300F6FF3C /* Hospital.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		7AE607B22957673600F6FF3C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				7AE6078F2956533700F6FF3C /* Home */,
+				7AE6078E2956531E00F6FF3C /* Search */,
+				7AE6078D2956526D00F6FF3C /* Tabbar */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		7AE607B32957675100F6FF3C /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				7AE607932956546300F6FF3C /* Common */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		7AE607B4295767B200F6FF3C /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				7AE607BE295772D500F6FF3C /* ApiService.swift */,
+				7AE607C0295772E800F6FF3C /* ApiUrl.swift */,
+				7AE607C529577D9100F6FF3C /* HomeService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		7AE607B729576BF000F6FF3C /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				7AE607E329579F9400F6FF3C /* Config */,
+				7AE607C729577E5400F6FF3C /* Utils */,
+				7AE607B829576C0B00F6FF3C /* Services */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		7AE607B829576C0B00F6FF3C /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				7AE607B929576C2800F6FF3C /* BaseApiClient.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		7AE607BB2957728000F6FF3C /* DataSources */ = {
+			isa = PBXGroup;
+			children = (
+				7AE607BC295772B100F6FF3C /* RemoteDataSource.swift */,
+			);
+			path = DataSources;
+			sourceTree = "<group>";
+		};
+		7AE607C229577CE600F6FF3C /* Injected */ = {
+			isa = PBXGroup;
+			children = (
+				7AE607D62957851C00F6FF3C /* AppState.swift */,
+				7AE607C329577D0600F6FF3C /* ServiceContainer.swift */,
+				7AE607D22957829100F6FF3C /* DepandancyInjector.swift */,
+			);
+			path = Injected;
+			sourceTree = "<group>";
+		};
+		7AE607C729577E5400F6FF3C /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				7AE607D4295784A800F6FF3C /* Store.swift */,
+				7AE607C829577E6D00F6FF3C /* Loadable.swift */,
+				7AE607CA29577EAE00F6FF3C /* CancelBag.swift */,
+				7AE607CC29577EFB00F6FF3C /* LazyList.swift */,
+				7AE607D02957821900F6FF3C /* NewtworkingHelper.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		7AE607E329579F9400F6FF3C /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				7AE607E429579FA200F6FF3C /* AppEnvironment.swift */,
+			);
+			path = Config;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -230,15 +370,35 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7AE607A6295762D500F6FF3C /* SearchViewModel.swift in Sources */,
+				7AE607D12957821900F6FF3C /* NewtworkingHelper.swift in Sources */,
 				7AE6078A295627C400F6FF3C /* SearchView.swift in Sources */,
+				7AE607D5295784A800F6FF3C /* Store.swift in Sources */,
+				7AE607BF295772D500F6FF3C /* ApiService.swift in Sources */,
 				7AE607952956547F00F6FF3C /* CardModifier.swift in Sources */,
+				7AE607CD29577EFB00F6FF3C /* LazyList.swift in Sources */,
+				7AE607D32957829100F6FF3C /* DepandancyInjector.swift in Sources */,
 				7AE607772955D83800F6FF3C /* TabbarView.swift in Sources */,
+				7AE607A4295762C400F6FF3C /* HomeViewModel.swift in Sources */,
 				7AE6079F2956555300F6FF3C /* HospitalCardInfo.swift in Sources */,
+				7AE607A92957646B00F6FF3C /* Statistic.swift in Sources */,
+				7AE607CB29577EAE00F6FF3C /* CancelBag.swift in Sources */,
+				7AE607C929577E6D00F6FF3C /* Loadable.swift in Sources */,
+				7AE607E529579FA200F6FF3C /* AppEnvironment.swift in Sources */,
+				7AE607C1295772E800F6FF3C /* ApiUrl.swift in Sources */,
+				7AE607AD2957649300F6FF3C /* Hospital.swift in Sources */,
+				7AE607BD295772B100F6FF3C /* RemoteDataSource.swift in Sources */,
 				7AE607A12956557400F6FF3C /* HospitalCardTile.swift in Sources */,
 				7AE60799295654E100F6FF3C /* BannerCardInfo.swift in Sources */,
+				7AE607BA29576C2800F6FF3C /* BaseApiClient.swift in Sources */,
+				7AE607CF29577FE800F6FF3C /* HomeWebRepository.swift in Sources */,
+				7AE607C629577D9100F6FF3C /* HomeService.swift in Sources */,
 				7AE6079B2956550300F6FF3C /* NewsCardInfo.swift in Sources */,
+				7AE607D72957851C00F6FF3C /* AppState.swift in Sources */,
 				7AE6078C295627D200F6FF3C /* HomeView.swift in Sources */,
+				7AE607AB2957648400F6FF3C /* News.swift in Sources */,
 				7AE607752955D83800F6FF3C /* Main.swift in Sources */,
+				7AE607C429577D0600F6FF3C /* ServiceContainer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
