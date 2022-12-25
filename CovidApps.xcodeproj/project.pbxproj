@@ -26,7 +26,6 @@
 		7AE607FB2957CC5700F6FF3C /* Hospital.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE607FA2957CC5700F6FF3C /* Hospital.swift */; };
 		7AE607FD2957D0BE00F6FF3C /* SerachViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE607FC2957D0BE00F6FF3C /* SerachViewModel.swift */; };
 		7AE607FF2957E6A800F6FF3C /* BundleExpansion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE607FE2957E6A800F6FF3C /* BundleExpansion.swift */; };
-		7AE608012957EB3600F6FF3C /* Shimmer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE608002957EB3600F6FF3C /* Shimmer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,7 +49,6 @@
 		7AE607FA2957CC5700F6FF3C /* Hospital.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hospital.swift; sourceTree = "<group>"; };
 		7AE607FC2957D0BE00F6FF3C /* SerachViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SerachViewModel.swift; sourceTree = "<group>"; };
 		7AE607FE2957E6A800F6FF3C /* BundleExpansion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BundleExpansion.swift; sourceTree = "<group>"; };
-		7AE608002957EB3600F6FF3C /* Shimmer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shimmer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -161,7 +159,6 @@
 			isa = PBXGroup;
 			children = (
 				7AE607942956547F00F6FF3C /* CardModifier.swift */,
-				7AE608002957EB3600F6FF3C /* Shimmer.swift */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -294,7 +291,6 @@
 				7AE607F12957B50C00F6FF3C /* HomeViewModel.swift in Sources */,
 				7AE60799295654E100F6FF3C /* BannerCardInfo.swift in Sources */,
 				7AE6079B2956550300F6FF3C /* NewsCardInfo.swift in Sources */,
-				7AE608012957EB3600F6FF3C /* Shimmer.swift in Sources */,
 				7AE6078C295627D200F6FF3C /* HomeView.swift in Sources */,
 				7AE607752955D83800F6FF3C /* Main.swift in Sources */,
 				7AE607FF2957E6A800F6FF3C /* BundleExpansion.swift in Sources */,
