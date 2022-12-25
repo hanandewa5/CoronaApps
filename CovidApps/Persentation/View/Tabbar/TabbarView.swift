@@ -10,6 +10,7 @@ import SwiftUI
 struct TabbarView: View {
     var body: some View {
         TabView{
+            
             HomeView()
                 .tabItem {
                     Label("Menu", systemImage: "house")
@@ -19,9 +20,8 @@ struct TabbarView: View {
                 .tabItem {
                     Label("Search Hospital", systemImage: "magnifyingglass")
                 }
-
         }
-
+        
     }
 }
 

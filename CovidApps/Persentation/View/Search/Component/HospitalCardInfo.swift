@@ -23,7 +23,7 @@ struct HospitalCardInfo: View {
     
     var body: some View {
         HStack(alignment: .center) {
-            DisclosureGroup(title){
+            DisclosureGroup(isExpanded: $expanded){
                 VStack(alignment: .leading) {
                     Divider()
                     HospitalCardTile(label: "Address", value: address)
@@ -31,9 +31,12 @@ struct HospitalCardInfo: View {
                     HospitalCardTile(label: "Province", value: province)
                     HospitalCardTile(label: "Region", value: region)
                 }.padding(.top,10)
+            } label: {
+                Text(title)
+                    .multilineTextAlignment(.leading)
             }
             .accentColor(colorScheme == .dark ? .white : .black)
-//            .foregroundColor(.black)
+            //            .foregroundColor(.black)
             .padding(.all, 12)
         }
         .frame(maxWidth: .infinity, alignment: .center)

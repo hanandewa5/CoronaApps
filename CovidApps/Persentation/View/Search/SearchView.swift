@@ -9,9 +9,7 @@ import Foundation
 import SwiftUI
 
 struct SearchView : View {
-    let array = ["Peter", "Paul", "Mary", "Anna-Lena", "George", "John", "Greg", "Thomas", "Robert", "Bernie", "Mike", "Benno", "Hugo", "Miles", "Michael", "Mikel", "Tim", "Tom", "Lottie", "Lorrie", "Barbara"]
-    @State private var searchText = ""
-    @State private var showCancelButton: Bool = false
+    @ObservedObject var vm = SearchView.ViewModel()
     
     @Environment(\.colorScheme) var colorScheme
     
@@ -23,15 +21,11 @@ struct SearchView : View {
                     HStack {
                         Image(systemName: "magnifyingglass").foregroundColor(Color.accentColor)
                         
-                        TextField("search", text: $searchText, onEditingChanged: { isEditing in
-                            self.showCancelButton = true
-                        }, onCommit: {
-                            print("onCommit")
-                        })
+                        TextField("search", text: $vm.searchText)
                         Button(action: {
-                            self.searchText = ""
+                            vm.searchText = ""
                         }) {
-                            Image(systemName: "xmark.circle.fill").opacity(searchText == "" ? 0 : 1)
+                            Image(systemName: "xmark.circle.fill").opacity(vm.searchText == "" ? 0 : 1)
                         }
                     }
                     .padding(EdgeInsets(top: 12, leading: 10, bottom: 12, trailing: 10))
@@ -43,13 +37,17 @@ struct SearchView : View {
                 .navigationBarHidden(true) // .animation(.default) // animation does not work properly
                 
                 ScrollView {
-                    HospitalCardInfo(
-                        title: "RS UMUM",
-                        address: "JL. Perjuangan",
-                        phone: "0812321321",
-                        province: "Jakarta",
-                        region: "JAKARTA"
-                    )
+                    LazyVStack{
+                        ForEach(vm.filteredHospitals, id: \.phone){ item in
+                            HospitalCardInfo(
+                                title: item.name,
+                                address: item.address,
+                                phone: item.phone ?? "",
+                                province: item.province,
+                                region: item.region
+                            )
+                        }
+                    }
                 }.padding()
             }
         }

@@ -10,15 +10,16 @@ import SwiftUI
 
 struct NewsCardInfo: View {
     
-    var dates: String
+    var dates: Double
     var content: String
     
     var body: some View {
         HStack(alignment: .center) {
             VStack(alignment: .leading) {
-                HStack(spacing:185){
-                    Text(dates)
+                HStack{
+                    Text(unixToStringDate(unix: dates))
                         .font(.system(size: 16, design: .default)).italic()
+                    Spacer()
                     Image(systemName: "arrow.right")
                 }
                 Text(content)
@@ -27,6 +28,7 @@ struct NewsCardInfo: View {
         }
         .frame(maxWidth: .infinity, alignment: .center)
         .modifier(CardModifier())
-        .padding(.all, 10)
+        .padding(.horizontal, 16)
+        .padding(.bottom,10)
     }
 }

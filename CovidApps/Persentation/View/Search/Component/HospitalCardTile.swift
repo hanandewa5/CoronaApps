@@ -18,6 +18,7 @@ struct HospitalCardTile: View{
             Spacer()
             Text(value)
                 .font(.system(size: 18, design: .default)).padding(.top,1)
+                .multilineTextAlignment(.trailing)
         }
 
     }
