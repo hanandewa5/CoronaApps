@@ -37,8 +37,8 @@ struct SearchView : View {
                 .navigationBarHidden(true) // .animation(.default) // animation does not work properly
                 
                 ScrollView {
-                    LazyVStack{
-                        ForEach(vm.filteredHospitals, id: \.phone){ item in
+                    VStack{
+                        ForEach(vm.filteredHospitals, id: \.name){ item in
                             HospitalCardInfo(
                                 title: item.name,
                                 address: item.address,
