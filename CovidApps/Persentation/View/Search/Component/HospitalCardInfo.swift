@@ -23,7 +23,7 @@ struct HospitalCardInfo: View {
     
     var body: some View {
         HStack(alignment: .center) {
-            DisclosureGroup(isExpanded: $expanded){
+            DisclosureGroup(){
                 VStack(alignment: .leading) {
                     Divider()
                     HospitalCardTile(label: "Address", value: address)
